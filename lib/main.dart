@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get_storage/get_storage.dart';
 
+import 'View/HomeScreen/Home.dart';
 import 'View/HomeScreen/Image/image_picker.dart';
 import 'View/HomeScreen/Image/upload.dart';
 import 'View/HomeScreen/Image/upload_image.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ImageDemo(),
+      home: HomeDemo(),
     );
   }
 }
